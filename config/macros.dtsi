@@ -170,5 +170,5 @@ macro_copy_whole_file: macro_copy_whole_file{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_whole_file";
 #binding-cells = <0>;
-bindings = <&kp G>, <&kp G>, <&kp LS(V)>, <&kp LS(G)>, <&kp Y>;
+bindings = <&kp G>, <&kp G>, <&kp LS(V)>, <&kp LS(G)>, <&kp Y>, <&to 0>;
 };
