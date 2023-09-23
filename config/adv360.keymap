@@ -79,11 +79,11 @@
 
         layer_vim {
             bindings = <
- &trans  &trans             &trans                 &trans           &trans  &macro_prev_first_arg              &macro_prev_last_arg                                                  &macro_prev_d_firstarg  &macro_prev_d_lastarg           &trans         &trans            &trans  &trans  &trans
- &trans  &trans             &trans                 &trans  &macro_show_reg  &macro_next_first_arg              &macro_next_last_arg                                                  &macro_next_d_firstarg  &macro_last_d_lastarg           &trans         &trans            &trans  &trans  &trans
- &trans  &trans  &macro_reveal_def                 &trans           &trans                 &trans            &macro_copy_whole_file  &trans  &trans                  &trans  &trans                  &trans        &macro_tab_left  &macro_tab_down  &macro_up_tab  &macro_right_tab  &trans  &trans
- &trans  &trans             &trans  &macro_code_hierarchy           &trans                 &tog 5                                            &trans                  &trans                                                 &trans           &trans         &trans            &trans  &trans  &trans
- &trans  &trans             &trans                 &trans           &trans                                        &macro_vim_pageup  &trans  &trans                  &trans  &trans     &macro_vim_pagedown                                  &trans         &trans            &trans  &trans  &trans
+ &trans  &trans             &trans                 &trans           &trans  &macro_prev_first_arg              &macro_prev_last_arg                                                  &macro_prev_d_firstarg  &macro_prev_d_lastarg           &trans           &trans         &trans            &trans  &trans
+ &trans  &trans             &trans                 &trans  &macro_show_reg  &macro_next_first_arg              &macro_next_last_arg                                                  &macro_next_d_firstarg  &macro_last_d_lastarg           &trans    &macro_i_base  &macro_o_base            &trans  &trans
+ &trans  &trans  &macro_reveal_def                 &trans           &trans                 &trans            &macro_copy_whole_file  &trans  &trans                  &trans  &trans                  &trans                  &kp H            &kp J            &kp K          &kp L            &trans  &trans
+ &trans  &trans             &trans  &macro_code_hierarchy           &trans                 &tog 5                                            &trans                  &trans                                                 &trans           &trans           &trans         &trans            &trans  &trans
+ &trans  &trans             &trans                 &trans           &trans                                        &macro_vim_pageup  &trans  &trans                  &trans  &trans     &macro_vim_pagedown                         &macro_tab_left  &macro_tab_down  &macro_up_tab  &macro_right_tab  &trans
             >;
         };
 
@@ -93,7 +93,7 @@
  &trans              &trans              &trans               &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans          &trans                &trans  &trans  &trans
  &trans  &macro_all_bm_list  &macro_bm_side_bar               &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_bm_next  &macro_bm_prev  &macro_local_bm_list  &trans  &trans
  &trans              &trans              &trans  &macro_clear_all_bm  &trans  &trans                            &trans                  &trans                  &trans          &trans          &trans                &trans  &trans  &trans
- &trans              &trans              &trans               &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans          &trans                &trans  &trans  &trans
+ &trans              &trans              &trans               &trans  &trans                     &to 0  &trans  &trans                   &to 4  &trans   &to 0                  &trans          &trans                &trans  &trans  &trans
             >;
         };
 
