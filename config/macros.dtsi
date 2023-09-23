@@ -1,3 +1,147 @@
+macro_code_hierarchy: macro_code_hierarchy{
+compatible = "zmk,behavior-macro";
+label = "macro_code_hierarchy";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp LS(H)>;
+};
+macro_reveal_def: macro_reveal_def{
+compatible = "zmk,behavior-macro";
+label = "macro_reveal_def";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp S>;
+};
+macro_bm_prev: macro_bm_prev{
+compatible = "zmk,behavior-macro";
+label = "macro_bm_prev";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp K>;
+};
+macro_bm_next: macro_bm_next{
+compatible = "zmk,behavior-macro";
+label = "macro_bm_next";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp J>;
+};
+macro_bm_side_bar: macro_bm_side_bar{
+compatible = "zmk,behavior-macro";
+label = "macro_bm_side_bar";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp S>, <&kp B>, <&to 0>;
+};
+macro_clear_all_bm: macro_clear_all_bm{
+compatible = "zmk,behavior-macro";
+label = "macro_clear_all_bm";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp A>, <&kp C>, <&to 0>;
+};
+macro_all_bm_list: macro_all_bm_list{
+compatible = "zmk,behavior-macro";
+label = "macro_all_bm_list";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp A>, <&kp L>, <&to 0>;
+};
+macro_local_bm_list: macro_local_bm_list{
+compatible = "zmk,behavior-macro";
+label = "macro_local_bm_list";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp L>, <&to 0>;
+};
+macro_vim_pageup: macro_vim_pageup{
+compatible = "zmk,behavior-macro";
+label = "macro_vim_pageup";
+#binding-cells = <0>;
+bindings = <&kp LC(LC(B))>;
+};
+macro_vim_pagedown: macro_vim_pagedown{
+compatible = "zmk,behavior-macro";
+label = "macro_vim_pagedown";
+#binding-cells = <0>;
+bindings = <&kp LC(F)>;
+};
+macro_tab_down: macro_tab_down{
+compatible = "zmk,behavior-macro";
+label = "macro_tab_down";
+#binding-cells = <0>;
+bindings = <&kp LS(W)>, <&kp J>;
+};
+macro_tab_left: macro_tab_left{
+compatible = "zmk,behavior-macro";
+label = "macro_tab_left";
+#binding-cells = <0>;
+bindings = <&kp LC(W)>, <&kp H>;
+};
+macro_up_tab: macro_up_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_up_tab";
+#binding-cells = <0>;
+bindings = <&kp LC(W)>, <&kp K>;
+};
+macro_right_tab: macro_right_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_right_tab";
+#binding-cells = <0>;
+bindings = <&kp LC(W)>, <&kp L>;
+};
+macro_show_reg: macro_show_reg{
+compatible = "zmk,behavior-macro";
+label = "macro_show_reg";
+#binding-cells = <0>;
+bindings = <&kp LS(SEMI)>, <&kp R>, <&kp E>, <&kp G>, <&kp ENTER>;
+};
+macro_two_leader: macro_two_leader{
+compatible = "zmk,behavior-macro";
+label = "macro_two_leader";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp SPACE>;
+};
+macro_prev_d_lastarg: macro_prev_d_lastarg{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_d_lastarg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp SPACE>, <&kp LS(D)>, <&kp A>;
+};
+macro_prev_d_firstarg: macro_prev_d_firstarg{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_d_firstarg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp LS(D)>, <&kp A>;
+};
+macro_last_d_lastarg: macro_last_d_lastarg{
+compatible = "zmk,behavior-macro";
+label = "macro_last_d_lastarg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp SPACE>, <&kp D>, <&kp A>;
+};
+macro_next_d_firstarg: macro_next_d_firstarg{
+compatible = "zmk,behavior-macro";
+label = "macro_next_d_firstarg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp D>, <&kp A>;
+};
+macro_prev_last_arg: macro_prev_last_arg{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_last_arg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp SPACE>, <&kp LS(C)>, <&kp A>;
+};
+macro_prev_first_arg: macro_prev_first_arg{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_first_arg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp LS(C)>, <&kp A>;
+};
+macro_next_last_arg: macro_next_last_arg{
+compatible = "zmk,behavior-macro";
+label = "macro_next_last_arg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp SPACE>, <&kp C>, <&kp A>;
+};
+macro_next_first_arg: macro_next_first_arg{
+compatible = "zmk,behavior-macro";
+label = "macro_next_first_arg";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp C>, <&kp A>;
+};
 macro_reopen_window: macro_reopen_window{
 compatible = "zmk,behavior-macro";
 label = "macro_reopen_window";
