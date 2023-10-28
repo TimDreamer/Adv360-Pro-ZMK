@@ -170,7 +170,7 @@ macro_next_last_arg: macro_next_last_arg{
 compatible = "zmk,behavior-macro";
 label = "macro_next_last_arg";
 #binding-cells = <0>;
-bindings = <&kp SPACE>, <&kp SPACE>, <&kp C>, <&kp A>, <&to 0>;
+bindings = <&kp SPACE>, <&kp C>, <&kp A>, <&to 0>;
 };
 macro_next_first_arg: macro_next_first_arg{
 compatible = "zmk,behavior-macro";
